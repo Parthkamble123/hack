@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.9">
+
+    <location netOffset="0.0,0.0"
+              convBoundary="-300,-300,300,300"
+              origBoundary="-300,-300,300,300"
+              projParameter="!"/>
+
+    <!-- ================= JUNCTIONS ================= -->
+
+    <junction id="center" type="traffic_light"
+              x="0" y="0"
+              incLanes="n2c_0 s2c_0 e2c_0 w2c_0"
+              intLanes=""
+              shape="-5,-5 5,-5 5,5 -5,5"/>
+
+    <junction id="north" type="priority" x="0" y="250"/>
+    <junction id="south" type="priority" x="0" y="-250"/>
+    <junction id="east"  type="priority" x="250" y="0"/>
+    <junction id="west"  type="priority" x="-250" y="0"/>
+
+    <!-- ================= EDGES ================= -->
+
+    <!-- Incoming -->
+    <edge id="n2c" from="north" to="center" priority="1">
+        <lane id="n2c_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <edge id="s2c" from="south" to="center" priority="1">
+        <lane id="s2c_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <edge id="e2c" from="east" to="center" priority="1">
+        <lane id="e2c_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <edge id="w2c" from="west" to="center" priority="1">
+        <lane id="w2c_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <!-- Outgoing -->
+    <edge id="c2n" from="center" to="north" priority="1">
+        <lane id="c2n_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <edge id="c2s" from="center" to="south" priority="1">
+        <lane id="c2s_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <edge id="c2e" from="center" to="east" priority="1">
+        <lane id="c2e_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+    <edge id="c2w" from="center" to="west" priority="1">
+        <lane id="c2w_0" index="0" speed="13.9" length="200"/>
+    </edge>
+
+</net>

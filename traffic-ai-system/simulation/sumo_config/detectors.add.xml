@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+
+    <laneAreaDetector id="det_north"
+        lane="n2c_0"
+        pos="100"
+        length="50"
+        freq="1"
+        file="detector_output.xml"/>
+
+    <laneAreaDetector id="det_south"
+        lane="s2c_0"
+        pos="100"
+        length="50"
+        freq="1"
+        file="detector_output.xml"/>
+
+    <laneAreaDetector id="det_east"
+        lane="e2c_0"
+        pos="100"
+        length="50"
+        freq="1"
+        file="detector_output.xml"/>
+
+    <laneAreaDetector id="det_west"
+        lane="w2c_0"
+        pos="100"
+        length="50"
+        freq="1"
+        file="detector_output.xml"/>
+
+</additional>
