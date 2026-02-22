@@ -1,0 +1,60 @@
+2026-02-21 20:31:49,626 [INFO] __main__: Loading raw data from: C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\raw\traffic_dataset.csv
+2026-02-21 20:32:25,931 [WARNING] simulation.coordination_manager: Model not found — AI control disabled. Traffic lights will use SUMO fixed-time logic.
+2026-02-21 20:32:25,931 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:37:19,598 [WARNING] simulation.coordination_manager: Model not found — AI control disabled. Traffic lights will use SUMO fixed-time logic.
+2026-02-21 20:37:19,599 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:38:19,848 [INFO] __main__: Loading raw data from: C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\raw\traffic_dataset.csv
+2026-02-21 20:40:51,139 [INFO] __main__: Loading raw data from: C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\raw\traffic_dataset.csv
+2026-02-21 20:44:35,030 [INFO] __main__: Loading raw data from: C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\raw\traffic_dataset.csv
+2026-02-21 20:44:35,077 [INFO] training.preprocess: Loaded 48204 rows, 9 cols from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\raw\traffic_dataset.csv
+2026-02-21 20:44:35,104 [WARNING] training.preprocess: Null values found:
+holiday    48126
+dtype: int64
+2026-02-21 20:50:44,177 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:44,179 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:44,180 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:44,180 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:50:52,399 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:52,401 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:52,401 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:52,401 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:50:56,972 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:56,973 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:56,974 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:56,974 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:50:58,067 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:58,069 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:58,069 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:58,069 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:50:58,870 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:58,872 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:58,872 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:58,872 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:50:59,148 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:59,151 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:59,153 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:59,154 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:50:59,194 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:50:59,195 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:50:59,195 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:50:59,196 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:51:07,714 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:51:07,715 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:51:07,716 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:51:07,716 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 20:51:39,407 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 20:51:39,409 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 20:51:39,409 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 20:51:39,409 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --no-warnings --log logs/sumo.log
+2026-02-21 21:20:39,302 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 21:20:39,304 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 21:20:39,305 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 21:20:39,305 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --remote-port=8813 --no-warnings --log logs/sumo.log
+2026-02-21 21:23:39,730 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 21:23:39,733 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 21:23:39,734 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 21:23:39,735 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --start --quit-on-end --step-length=1.0 --seed=42 --remote-port=8813 --no-warnings --log logs/sumo.log
+2026-02-21 21:31:40,625 [INFO] ai.model_loader: Model loaded: RandomForestClassifier
+2026-02-21 21:31:40,628 [INFO] ai.feature_builder: Scaler loaded from C:\Users\parth\OneDrive\Desktop\traffic-ai-system\data\processed\scaler.pkl
+2026-02-21 21:31:40,629 [INFO] simulation.coordination_manager: DecisionEngine ready: center
+2026-02-21 21:31:40,629 [INFO] simulation.traci_controller: Starting SUMO: C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui.EXE -c C:\Users\parth\OneDrive\Desktop\traffic-ai-system\simulation\sumo_config\simulation.sumocfg --step-length=1.0 --seed=42 --remote-port=8813 --no-warnings --log logs/sumo.log
